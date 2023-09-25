@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "project-coc-server"
+version = "0.1.0"
+description = ""
+authors = ["yOung-4 <91882244+yOung-4@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "project_coc_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.103.1"
+pymongo = "^4.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
