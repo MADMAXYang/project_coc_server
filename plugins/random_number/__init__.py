@@ -1,4 +1,6 @@
 import random
+
+
 def get_coc_random_number(b, a=1, c=0,):
     result = 0
     for i in range(a):
